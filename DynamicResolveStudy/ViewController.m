@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MyClass.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self testEntrance];
 }
-
+//测试方法入口
+-(void)testEntrance{
+    //调用一个名为unknownClassMethod的未知的类方法
+    [MyClass performSelector:@selector(unknownClassMethod) withObject:nil];
+    //调用一个名为unknownInstanceMethod的未知的实例化方法
+    [[MyClass new] performSelector:@selector(unknownInstanceMethod) withObject:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -15,6 +15,7 @@
 		234F900320E4DE2E00FA5991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234F900220E4DE2E00FA5991 /* main.m */; };
 		234F900D20E4DE2F00FA5991 /* DynamicResolveStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 234F900C20E4DE2F00FA5991 /* DynamicResolveStudyTests.m */; };
 		234F901820E4DE2F00FA5991 /* DynamicResolveStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 234F901720E4DE2F00FA5991 /* DynamicResolveStudyUITests.m */; };
+		234F902A20E4E2E500FA5991 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 234F902920E4E2E500FA5991 /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		234F901320E4DE2F00FA5991 /* DynamicResolveStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicResolveStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234F901720E4DE2F00FA5991 /* DynamicResolveStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicResolveStudyUITests.m; sourceTree = "<group>"; };
 		234F901920E4DE2F00FA5991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234F902820E4E2E500FA5991 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		234F902920E4E2E500FA5991 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				234F8FFE20E4DE2E00FA5991 /* LaunchScreen.storyboard */,
 				234F900120E4DE2E00FA5991 /* Info.plist */,
 				234F900220E4DE2E00FA5991 /* main.m */,
+				234F902820E4E2E500FA5991 /* MyClass.h */,
+				234F902920E4E2E500FA5991 /* MyClass.m */,
 			);
 			path = DynamicResolveStudy;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				234F8FF820E4DE2E00FA5991 /* ViewController.m in Sources */,
 				234F900320E4DE2E00FA5991 /* main.m in Sources */,
+				234F902A20E4E2E500FA5991 /* MyClass.m in Sources */,
 				234F8FF520E4DE2E00FA5991 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
