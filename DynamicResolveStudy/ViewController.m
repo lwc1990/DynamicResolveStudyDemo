@@ -9,11 +9,8 @@
 #import "ViewController.h"
 #import "MyClass.h"
 @interface ViewController ()
-
 @end
-
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self testEntrance];
